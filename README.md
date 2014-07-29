@@ -10,7 +10,9 @@ Website URL: <a href="http://wpspeak.com/" target="_blank">WPSpeak.com</a>
 
 Twitter: <a href="https://twitter.com/wpspeak" target="_blank">@WPSpeak</a>
 
-Theme demo: <a href="http://demo.wpspeak.com/minimal/" target="_blank">Minimal Demo</a>
+Theme demo: <a href="http://demo.wpspeak.com/minimal/" target="_blank">Minimal Demo</a> 
+ 
+Theme setup: <a href="https://github.com/wpspeak/minimal/wiki/Theme-Setup" target="_blank">Wiki</a>
 
 <h2>License</h2>
 
