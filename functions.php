@@ -193,7 +193,7 @@ add_action( 'genesis_after_header', 'minimal_top_widget', 15 );
 function minimal_top_widget() {
 
 	genesis_widget_area( 'top-widget', array(
-		'before' => '<div class="top-widget" class="widget-area"><div class="wrap">',
+		'before' => '<div class="top-widget widget-area"><div class="wrap">',
 		'after'  => '</div></div>',
 	));
 }
@@ -204,7 +204,7 @@ function minimal_after_entry() {
 
 	if ( is_singular( 'post' ) )
 		genesis_widget_area( 'after-entry-widget', array(
-			'before' => '<div class="after-entry-widget" class="widget-area">',
+			'before' => '<div class="after-entry-widget widget-area">',
 			'after'  => '</div>',
 		) );
 
