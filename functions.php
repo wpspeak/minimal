@@ -188,6 +188,13 @@ function minimal_archive_pages() {
 	}
 }
 
+//* Change the footer text
+add_filter('genesis_footer_creds_text', 'minimal_footer_creds_filter');
+function minimal_footer_creds_filter( $creds ) {
+	$creds = '[footer_copyright] &middot; ' . get_bloginfo('name') . ' &middot; Proudly powered by [footer_wordpress_link] and [footer_childtheme_link before=""]';
+	return $creds;
+}
+
 //* Hook before post widget after the entry content
 add_action( 'genesis_after_header', 'minimal_top_widget', 15 );
 function minimal_top_widget() {
