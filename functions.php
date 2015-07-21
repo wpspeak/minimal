@@ -7,7 +7,7 @@ include_once( get_stylesheet_directory() . '/lib/theme-defaults.php' );
 
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'Minimal Theme' );
-define( 'CHILD_THEME_URL', 'http://wpspeak.com/themes/minimal' );
+define( 'CHILD_THEME_URL', 'http://wpspeak.com/themes/minimal-theme/' );
 define( 'CHILD_THEME_VERSION', '1.0.0' );
 
 //* Enqueue Custom Scripts
